@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "TabNewsCleaner",
+  "version": "1.0",
+  "description": "Oculta itens de newsletter que contenham pitchs e emojis",
+  "content_scripts": [
+    {
+      "matches": ["https://www.tabnews.com.br/*"], 
+      "js": ["cleaner.js"]
+    }
+  ]
+}
